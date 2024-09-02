@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    padding-top: 20px; 
+}
+
+.jumbotron {
+    background-color: #007bff;
+    color: white;
+    margin-bottom: 50px;
+    padding: 70px 0;
+}
+
+.navbar {
+    background-color: #333; 
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+#hero {
+    background: #007bff;
+    color: white;
+    padding: 70px 0;
+    margin-bottom: 50px;
+    background-image: url('hero-background.jpg'); /* Tambahkan gambar latar belakang */
+    background-size: cover;
+    background-position: center;
+}
+
+#hero .btn-primary {
+    background-color: #333;
+    border: none;
+}
+
+#hero .btn-primary:hover {
+    background-color: #555;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+#skills .col-md-4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#skills h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+#skills p {
+    color: #555;
+}
+
+#projects .col-md-6 {
+    margin-bottom: 30px;
+}
+
+#projects h3 {
+    color: #333;
+}
+
+#projects p {
+    color: #555;
+}
+
+#contact .form-group {
+    margin-bottom: 20px;
+}
+
+#contact .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+#contact .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
